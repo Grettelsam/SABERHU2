@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "30994461917",
+    "project_id": "saberhaceru2-19f3b",
+    "storage_bucket": "saberhaceru2-19f3b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30994461917:android:c5b0a2b4950cc78bf85734",
+        "android_client_info": {
+          "package_name": "com.company.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3FoBH8MP70wj04sIlRcHZ9o5JUBoVGfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
