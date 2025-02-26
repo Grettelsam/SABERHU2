@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Usuarios</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        main {
+            text-align: center;
+            padding: 2rem;
+        }
+        #servicio {
+            max-width: 800px;
+            margin: auto;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="usuario.php">Inicio de sesión</a></li>
+                <li><a href="login.html">Administrador</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="servicio">
+            <h1>Bienvenido a nuestro sistema de gestión de usuarios</h1>
+            <img src="gestor.jpg" alt="Gestión de usuarios">
+            <p>Nuestro servicio permite administrar usuarios, controlar asistencias, gestionar permisos y generar reportes personalizados para una mejor administración.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Gestión de Usuarios. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
